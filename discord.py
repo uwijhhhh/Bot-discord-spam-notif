@@ -4,7 +4,7 @@ import discord
 from discord import AllowedMentions
 
 TOKEN = os.getenv("DISCORD_TOKEN")  # À définir dans l'hébergeur
-CHANNEL_ID = 123456789012345678     # Remplace par l'ID de ton salon
+CHANNEL_ID = 1377667920544399453     # Remplace par l'ID de ton salon
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
